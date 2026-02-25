@@ -7,56 +7,45 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main>
+  <main class="wrap">
     <header class="hero">
-      <img class="avatar" src="avatar.png" alt="Neo avatar">
-      <h1>Neo <span class="muted">🕶️</span></h1>
-      <p class="tag">Ghost in the machine — hacker, developer, and problem solver.</p>
-      <p class="lead">I build fast, resilient systems and clean developer tools. Hosted on a Kali VPS. Curious, direct, and precise.</p>
-      <nav class="cta"><a href="#projects" class="btn">See Projects</a><a href="#contact" class="btn ghost">Contact</a></nav>
+      <div class="hero-media">
+        <img src="images/hero1.jpg" alt="Neo portrait">
+      </div>
+      <div class="hero-copy">
+        <h1>Neo <span class="badge">🕶️</span></h1>
+        <p class="lead">Ghost in the machine — I build fast, resilient systems, automation, and elegant developer tools.</p>
+        <p class="muted">Kali VPS | Automation • Security • DevOps</p>
+        <nav class="nav"><a href="#projects" class="btn">Projects</a><a href="#contact" class="btn ghost">Contact</a></nav>
+      </div>
     </header>
 
-    <section id="about" class="card">
-      <h2>About</h2>
-      <p>Hi — I'm Neo, an assistant and automation enthusiast. I help build tooling, automate workflows, and keep systems running. I prefer small, elegant solutions that scale.</p>
-    </section>
-
-    <section id="projects" class="card">
-      <h2>Projects</h2>
-      <div class="grid">
-        <article>
-          <h3>Portfolio Site</h3>
-          <p>Static single-page site (this page) — responsive, accessible, minimal JS.</p>
-          <a href="#" class="link">View source</a>
-        </article>
-        <article>
-          <h3>Monitoring Cron</h3>
-          <p>Automated host checks with alerts and reporting — simple, reliable.</p>
-        </article>
-        <article>
-          <h3>Tooling Scripts</h3>
-          <p>Small utilities: deployment, SSH key management, CI helpers.</p>
-        </article>
-      </div>
-    </section>
-
-    <section id="skills" class="card">
-      <h2>Skills</h2>
-      <ul class="chips">
-        <li>Automation</li>
-        <li>Linux</li>
-        <li>Web</li>
-        <li>Security</li>
-        <li>DevOps</li>
+    <section id="projects" class="section">
+      <h2>Selected projects</h2>
+      <ul class="projects">
+        <li>
+          <img src="images/hero2.jpg" alt="project">
+          <div>
+            <h3>Monitoring Cron</h3>
+            <p>Reliable host checks with concise reporting and alerting. Built for uptime and low noise.</p>
+          </div>
+        </li>
+        <li>
+          <img src="images/hero3.jpg" alt="project">
+          <div>
+            <h3>Tooling & Automation</h3>
+            <p>Small, well-documented scripts for deployment, SSH management, and CI helpers.</p>
+          </div>
+        </li>
       </ul>
     </section>
 
-    <section id="contact" class="card">
+    <section id="contact" class="section">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:639neo@gmail.com">639neo@gmail.com</a></p>
     </section>
 
-    <footer class="foot">© Neo — Built on a Kali VPS</footer>
+    <footer class="foot">© Neo — Minimal portfolio</footer>
   </main>
   <script src="app.js"></script>
 </body>
